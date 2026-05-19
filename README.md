@@ -1,38 +1,39 @@
-# One Piece
+# OnePiece Character API
 
-This template should help get you started developing with Vue 3 in Vite.
+A responsive One Piece character explorer built with Vue.js, Tailwind CSS, and Axios.  
+This project fetches character data from a public One Piece API and displays detailed information such as bounty, crew, devil fruit, age, height, and status.
 
-## Recommended IDE Setup
+---
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Preview
 
-## Recommended Browser Setup
+- Responsive character cards
+- Modern Tailwind CSS UI
+- API integration with Axios
+- Dynamic rendering using Vue.js
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+---
 
-## Customize configuration
+## Features
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- Fetch One Piece character data from API
+- Display:
+  - Character name
+  - Age
+  - Height
+  - Bounty
+  - Crew
+  - Devil Fruit
+  - Status
+- Responsive design
+- Clean card layout
+- Dynamic rendering with `v-for`
 
-## Project Setup
+---
 
-```sh
-npm install
-```
+## Tech Stack
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+- Vue.js
+- Tailwind CSS
+- Axios
+- Vite
